@@ -1,7 +1,8 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "release": {
-    "projectsRelationship": "independent"
+    "projectsRelationship": "independent",
+    "version": { "generatorOptions": { "currentVersionResolver": "git-tag" } }
   },
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
