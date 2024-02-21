@@ -12,9 +12,6 @@
       "projectChangelogs": {
         "createRelease": "github",
         "renderer": "nx/release/changelog-renderer"
-      },
-      "workspaceChangelog": {
-        "renderer": "nx/release/changelog-renderer"
       }
     }
   },
