@@ -7,6 +7,15 @@
         "currentVersionResolver": "git-tag",
         "specifierSource": "conventional-commits"
       }
+    },
+    "changelog": {
+      "projectChangelogs": {
+        "createRelease": "github",
+        "renderer": "nx/release/changelog-renderer"
+      },
+      "workspaceChangelog": {
+        "renderer": "nx/release/changelog-renderer"
+      }
     }
   },
   "namedInputs": {
