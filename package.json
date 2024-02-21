@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@nx/devkit": "18.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tslib": "^2.3.0"
@@ -15,7 +16,8 @@
     "@nx/eslint": "18.0.4",
     "@nx/eslint-plugin": "18.0.4",
     "@nx/jest": "18.0.4",
-    "@nx/js": "18.0.4",
+    "@nx/js": "^18.0.4",
+    "@nx/plugin": "^18.0.4",
     "@nx/react": "18.0.4",
     "@nx/web": "18.0.4",
     "@nx/webpack": "18.0.4",

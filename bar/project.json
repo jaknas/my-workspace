@@ -1,0 +1,19 @@
+{
+  "name": "bar",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "bar/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/bar",
+        "main": "bar/src/index.ts",
+        "tsConfig": "bar/tsconfig.lib.json",
+        "assets": ["bar/*.md"]
+      }
+    }
+  },
+  "tags": []
+}
